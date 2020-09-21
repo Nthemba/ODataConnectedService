@@ -18,7 +18,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Microsoft.OData.ConnectedService")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("TestOCSPublisher")]
 [assembly: AssemblyProduct("Microsoft.OData.ConnectedService")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
