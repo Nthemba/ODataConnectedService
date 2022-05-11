@@ -124,7 +124,7 @@
                 Margin="0,5"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
-                Content="Save Custom Http Headers In Settings Config File"
+                Content="Save Custom Http Headers in Settings Config File"
                 FontWeight="Medium"
                 IsChecked="{Binding Path=UserSettings.StoreCustomHttpHeaders, Mode=TwoWay}" />
         </StackPanel>
@@ -145,13 +145,13 @@
                     x:Name="HostLabel"
                     Margin="0,0,5,0"
                     HorizontalAlignment="Left"
-                    Text="Enter the webproxy host with the port (e.g. http://localhost:8080) :" />
+                    Text="Web proxy host with the port :" />
                 <TextBox
                     x:Name="WebProxyHost"
                     Width="300"
                     Margin="0,0,0,0"
                     HorizontalAlignment="Left"
-                    Text="{Binding Path=UserSettings.WebProxyHost, Mode=TwoWay}"
+                    Text="{Binding Path=UserSettings.WebProxyHost, Mode=TwoWay, TargetNullValue='e.g. http://localhost:8080'}"
                     TextWrapping="Wrap" />
             </StackPanel>
             <CheckBox
@@ -159,7 +159,7 @@
                 Margin="0,10"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
-                Content="Include Proxy Network Credentials"
+                Content="Include Web Proxy Network Credentials"
                 FontWeight="Medium"
                 IsChecked="{Binding Path=UserSettings.IncludeWebProxyNetworkCredentials, Mode=TwoWay}" />
             <StackPanel
@@ -210,7 +210,7 @@
                     Margin="0,10"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
-                    Content="Save Web Proxy Credentials In Settings Config File"
+                    Content="Save Web Proxy Credentials in Settings Config File"
                     FontWeight="Medium"
                     IsChecked="{Binding Path=UserSettings.StoreWebProxyNetworkCredentials, Mode=TwoWay}" />
 
